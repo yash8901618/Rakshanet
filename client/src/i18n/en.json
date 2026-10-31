@@ -1,0 +1,107 @@
+{
+  "app": {
+    "name": "RakshaNet",
+    "fullName": "RakshaNet Disaster Intelligence Grid",
+    "tagline": "AI-Powered Disaster Intelligence & Offline-Resilient Response Network",
+    "subTagline": "Zero-Cellular BLE Mesh Relay • AI Emergency Triage • 3D Indoor Digital Twin • ER Telemetry",
+    "badge": "NATIONAL EMERGENCY GRID • NDMA / 112 READY"
+  },
+  "roles": {
+    "citizen": "Citizen",
+    "authority": "Disaster Authority",
+    "responder": "First Responder",
+    "hospital": "Hospital Team",
+    "citizenDesc": "Mobile-first SOS broadcast, safe shelters, and zero-cellular peer-to-peer report relay.",
+    "authorityDesc": "Citywide incident triage, spatial hazard heatmaps, and national emergency dispatch.",
+    "responderDesc": "3D tactical indoor digital twin, room-level casualty pins, and live decrement rescue workflow.",
+    "hospitalDesc": "Real-time ER/ICU bed occupancy telemetry, oxygen/blood reserves, and ambulance auto-reroute."
+  },
+  "nav": {
+    "home": "Overview",
+    "sos": "Emergency SOS",
+    "report": "Report Hazard",
+    "shelters": "Safe Shelters",
+    "mesh": "Mesh Network",
+    "command": "Command Matrix",
+    "digitalTwin": "3D Indoor Twin",
+    "tactical": "Floor Rescue",
+    "hospital": "ER Telemetry",
+    "incidents": "Incident Stream",
+    "analytics": "Disaster GIS"
+  },
+  "severity": {
+    "level": "Severity",
+    "l1": "L1 · Advisory",
+    "l2": "L2 · Moderate",
+    "l3": "L3 · Serious",
+    "l4": "L4 · Severe",
+    "l5": "L5 · Catastrophic",
+    "l1Desc": "Minor localized disruption, no immediate life threat.",
+    "l2Desc": "Moderate hazard, localized emergency response deployed.",
+    "l3Desc": "Serious risk to life or infrastructure, active tactical evacuation.",
+    "l4Desc": "Severe multi-casualty emergency, rapid deployment authorized.",
+    "l5Desc": "Catastrophic crisis: Lock-screen priority override & mandatory evacuation."
+  },
+  "status": {
+    "online": "Command Hub Online",
+    "mesh": "BLE Mesh Relay Active",
+    "syncing": "Syncing Offline Batch...",
+    "buffered": "buffered locally",
+    "idle": "All Clear",
+    "dispatched": "Units Dispatched",
+    "inTransit": "En Route",
+    "resolved": "Cleared",
+    "triageActive": "AI Triage Active",
+    "criticalAlert": "Priority Override Active",
+    "erNormal": "ER Nominal",
+    "erCaution": "ER Nearing Capacity",
+    "erCritical": "ER Overcrowded - Rerouting"
+  },
+  "metrics": {
+    "trappedSouls": "Trapped Souls",
+    "erOccupancy": "ER Bed Capacity",
+    "icuOccupancy": "ICU Trauma Bays",
+    "activeResponders": "Active Response Units",
+    "meshPeers": "Mesh Relay Nodes",
+    "resolvedIncidents": "Resolved Incidents",
+    "oxygenLevel": "O₂ Supply Reserve",
+    "bloodReserve": "Blood Bank Units",
+    "avgResponseTime": "Avg Response Time",
+    "timeMinutes": "min"
+  },
+  "actions": {
+    "runLiveDemo": "Run Live Demo Scenario",
+    "runningDemo": "Executing Scenario...",
+    "submitSos": "BROADCAST EMERGENCY SOS",
+    "reportHazard": "Submit Hazard Report",
+    "rescuedMinusOne": "Rescued -1 Person",
+    "allRescued": "Floor Clear",
+    "switchRole": "Switch Operational Role",
+    "enterRole": "Enter Command View",
+    "viewDetails": "View Details",
+    "forcePriority": "Force-5 Override",
+    "syncNow": "Sync Offline Queue",
+    "mute": "Mute Sirens",
+    "unmute": "Unmute Sirens",
+    "toggleTheme": "Toggle Theme",
+    "toggleLanguage": "Language",
+    "filterAll": "All Floors",
+    "close": "Close Dialog"
+  },
+  "demo": {
+    "toastTitle": "Emergency Simulation Scenario Fired",
+    "toastDesc": "Sector 4 Sky-Rise: Multi-story fire & structural compromise report processed by AI Ghost Triage. 5 trapped individuals registered, ER beds reserved, first responder fleet dispatched."
+  },
+  "empty": {
+    "noIncidents": "No active emergency reports in this sector.",
+    "noIncidentsDesc": "The regional grid is operating under nominal status. All monitored sectors are clear.",
+    "noOfflineQueue": "Offline queue is empty.",
+    "noOfflineQueueDesc": "All local mesh packets have been synchronized with the national command hub."
+  },
+  "accessibility": {
+    "skipToContent": "Skip to emergency actions",
+    "roleSelector": "Select operational persona",
+    "networkIndicator": "Live network telemetry status",
+    "emergencyBadge": "Emergency severity indicator"
+  }
+}

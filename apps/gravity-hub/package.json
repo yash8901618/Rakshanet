@@ -1,0 +1,16 @@
+{
+  "name": "gravity-hub",
+  "version": "1.0.0",
+  "description": "Vortex Sentinel real-time crisis coordination mesh hub",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
